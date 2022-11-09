@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./codeBase/style.css">
+    <link rel="stylesheet" href="./leaf/leaflet.css">
+    <script src="./leaf/leaflet.js" ></script>
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <header class="top">
+            <h1>IP Address Tracker</h1>
+            <div class="input--grp">
+                <input type="text"/>
+                <div class="sub">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="14"><path fill="none" stroke="#FFF" stroke-width="3" d="M2 1l6 6-6 6"/></svg>
+                </div>
+            </div>
+            <div class="overlay-front">
+                <div class="info">
+                    <p>IP ADDRESS</p>
+                    <h1 class="ip">192.212.174.101</h1>
+                </div>
+                <div class="info">
+                    <p>LOCATION</p>
+                    <h1 class="loc">Brooklyn,NY 100001</h1>
+                </div>
+                <div class="info">
+                    <p>TIMEZONE</p>
+                    <h1 class="time">UTC-05:00</h1>
+                </div>
+                <div class="info">
+                    <p>ISP</p>
+                    <h1 class="isp">SpaceX Starlink</h1>
+                </div>
+            </div>
+        </header>
+        <div id="map"></div>
+    </section>
+    <script src="./codeBase/index.js"></script>
+</body>
+</html>
